@@ -1,0 +1,18 @@
+openapi: 3.0.2
+info:
+  title: Tenor GIF Search
+  version: '1.0'
+paths:
+  /search:
+    get:
+      operationId: search
+      description: Search for GIFs on Tenor
+      parameters:
+        - name: query
+          in: query
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful operation

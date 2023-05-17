@@ -1,0 +1,42 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore environment-specific files
+.env
+
+# Ignore IDE files
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore package build files
+/build/
+/dist/
+
+# Ignore the virtual environment
+venv/
+
+# Ignore the API key file
+tenor_api_key.txt
+
+# Ignore any generated or compiled files
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore the generated plugin files
+/plugins/
+
+# Ignore any other generated or sensitive files
+*.csv
+*.swp
+*.swo
